@@ -1,0 +1,31 @@
+###############
+Random Forest
+Leads: all
+Demographics:  True
+Normalised data: True
+Dataset: 2
+{'criterion': 'entropy', 'max_depth': None, 'max_features': 'sqrt', 'n_estimators': 800}
+
+###############
+Support Vector Machine
+Leads: all
+Demographics:  True
+Normalised data: True
+Dataset: 2
+{'C': 1.5, 'decision_function_shape': 'ovo', 'gamma': 'auto', 'kernel': 'rbf'}
+
+###############
+Gradient Boosting
+Leads: all
+Demographics:  True
+Normalised data: True
+Dataset: 2
+{'criterion': 'friedman_mse', 'loss': 'log_loss', 'max_depth': 3, 'n_estimators': 800}
+
+###############
+Multilayer Perceptron
+Leads: all
+Demographics:  True
+Normalised data: True
+Dataset: 2
+{'activation': 'tanh', 'batch_size': 'auto', 'learning_rate': 'adaptive', 'max_iter': 500, 'solver': 'adam'}
