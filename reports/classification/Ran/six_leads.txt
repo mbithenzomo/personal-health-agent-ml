@@ -1,0 +1,39 @@
+######## RandomForestClassifier(criterion='entropy', n_estimators=800)
+Leads: Six
+Demographics: True
+Normalised data: False
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.8610    0.9011    0.8806      1780
+           0     0.8963    0.8545    0.8749      1780
+
+    accuracy                         0.8778      3560
+   macro avg     0.8786    0.8778    0.8777      3560
+weighted avg     0.8786    0.8778    0.8777      3560
+
+Confusion matrix:
+[[1604  176]
+ [ 259 1521]]
+
+######## RandomForestClassifier(criterion='entropy', n_estimators=800)
+Leads: Six
+Demographics: True
+Normalised data: False
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.7658    0.8213    0.7926      1780
+           2     0.7709    0.6691    0.7164      1780
+           0     0.7206    0.7635    0.7414      1780
+
+    accuracy                         0.7513      5340
+   macro avg     0.7524    0.7513    0.7501      5340
+weighted avg     0.7524    0.7513    0.7501      5340
+
+Confusion matrix:
+[[1462  168  150]
+ [ 212 1191  377]
+ [ 235  186 1359]]

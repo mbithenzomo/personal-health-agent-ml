@@ -1,0 +1,159 @@
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: True
+Normalised data: True
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.8609    0.8904    0.8754      1780
+           0     0.8866    0.8562    0.8711      1780
+
+    accuracy                         0.8733      3560
+   macro avg     0.8738    0.8733    0.8733      3560
+weighted avg     0.8738    0.8733    0.8733      3560
+
+Confusion matrix:
+[[1585  195]
+ [ 256 1524]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: True
+Normalised data: True
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.7382    0.8174    0.7758      1780
+           2     0.7003    0.6039    0.6486      1780
+           0     0.7072    0.7287    0.7178      1780
+
+    accuracy                         0.7167      5340
+   macro avg     0.7152    0.7167    0.7140      5340
+weighted avg     0.7152    0.7167    0.7140      5340
+
+Confusion matrix:
+[[1455  181  144]
+ [ 312 1075  393]
+ [ 204  279 1297]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: True
+Normalised data: False
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     1.0000    0.0022    0.0045      1780
+           0     0.5006    1.0000    0.6672      1780
+
+    accuracy                         0.5011      3560
+   macro avg     0.7503    0.5011    0.3358      3560
+weighted avg     0.7503    0.5011    0.3358      3560
+
+Confusion matrix:
+[[   4 1776]
+ [   0 1780]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: True
+Normalised data: False
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     1.0000    0.0022    0.0045      1780
+           2     0.3336    1.0000    0.5003      1780
+           0     0.0000    0.0000    0.0000      1780
+
+    accuracy                         0.3341      5340
+   macro avg     0.4445    0.3341    0.1683      5340
+weighted avg     0.4445    0.3341    0.1683      5340
+
+Confusion matrix:
+[[   4 1776    0]
+ [   0 1780    0]
+ [   0 1780    0]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: False
+Normalised data: True
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.8738    0.8831    0.8785      1780
+           0     0.8819    0.8725    0.8772      1780
+
+    accuracy                         0.8778      3560
+   macro avg     0.8779    0.8778    0.8778      3560
+weighted avg     0.8779    0.8778    0.8778      3560
+
+Confusion matrix:
+[[1572  208]
+ [ 227 1553]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: False
+Normalised data: True
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.7476    0.7904    0.7684      1780
+           2     0.7291    0.6579    0.6917      1780
+           0     0.7225    0.7517    0.7368      1780
+
+    accuracy                         0.7333      5340
+   macro avg     0.7331    0.7333    0.7323      5340
+weighted avg     0.7331    0.7333    0.7323      5340
+
+Confusion matrix:
+[[1407  189  184]
+ [ 279 1171  330]
+ [ 196  246 1338]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: False
+Normalised data: False
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     1.0000    0.0022    0.0045      1780
+           0     0.5006    1.0000    0.6672      1780
+
+    accuracy                         0.5011      3560
+   macro avg     0.7503    0.5011    0.3358      3560
+weighted avg     0.7503    0.5011    0.3358      3560
+
+Confusion matrix:
+[[   4 1776]
+ [   0 1780]]
+
+######## SVC(C=1.5, decision_function_shape='ovo', gamma='auto')
+Leads: All
+Demographics: False
+Normalised data: False
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     1.0000    0.0022    0.0045      1780
+           2     0.3336    1.0000    0.5003      1780
+           0     0.0000    0.0000    0.0000      1780
+
+    accuracy                         0.3341      5340
+   macro avg     0.4445    0.3341    0.1683      5340
+weighted avg     0.4445    0.3341    0.1683      5340
+
+Confusion matrix:
+[[   4 1776    0]
+ [   0 1780    0]
+ [   0 1780    0]]

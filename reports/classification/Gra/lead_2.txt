@@ -1,0 +1,39 @@
+######## GradientBoostingClassifier(n_estimators=800)
+Lead: 2
+Demographics: True
+Normalised data: False
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.8531    0.8809    0.8668      1780
+           0     0.8769    0.8483    0.8624      1780
+
+    accuracy                         0.8646      3560
+   macro avg     0.8650    0.8646    0.8646      3560
+weighted avg     0.8650    0.8646    0.8646      3560
+
+Confusion matrix:
+[[1568  212]
+ [ 270 1510]]
+
+######## GradientBoostingClassifier(n_estimators=800)
+Lead: 2
+Demographics: True
+Normalised data: False
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.7604    0.8185    0.7884      1780
+           2     0.7585    0.7022    0.7293      1780
+           0     0.7337    0.7320    0.7328      1780
+
+    accuracy                         0.7509      5340
+   macro avg     0.7509    0.7509    0.7502      5340
+weighted avg     0.7509    0.7509    0.7502      5340
+
+Confusion matrix:
+[[1457  154  169]
+ [ 226 1250  304]
+ [ 233  244 1303]]

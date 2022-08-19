@@ -1,0 +1,41 @@
+######## MLPClassifier(activation='tanh', hidden_layer_sizes=(158, 100, 50),
+              learning_rate='adaptive', max_iter=500)
+Leads: Six
+Demographics: True
+Normalised data: True
+Classes: AF, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.8521    0.8483    0.8502      1780
+           0     0.8490    0.8528    0.8509      1780
+
+    accuracy                         0.8506      3560
+   macro avg     0.8506    0.8506    0.8506      3560
+weighted avg     0.8506    0.8506    0.8506      3560
+
+Confusion matrix:
+[[1510  270]
+ [ 262 1518]]
+
+######## MLPClassifier(activation='tanh', hidden_layer_sizes=(158, 100, 50),
+              learning_rate='adaptive', max_iter=500)
+Leads: Six
+Demographics: True
+Normalised data: True
+Classes: AF, Other, None
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.7432    0.7107    0.7266      1780
+           2     0.6748    0.6843    0.6795      1780
+           0     0.6890    0.7096    0.6991      1780
+
+    accuracy                         0.7015      5340
+   macro avg     0.7024    0.7015    0.7017      5340
+weighted avg     0.7024    0.7015    0.7017      5340
+
+Confusion matrix:
+[[1265  271  244]
+ [ 236 1218  326]
+ [ 201  316 1263]]
